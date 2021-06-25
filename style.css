@@ -1,0 +1,42 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(9, 6%);
+    margin-top: 30px;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    
+}
+input{
+    text-align: center;
+    font-size: 50px;
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+.text{
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.text:hover{
+    color: gold;
+}
+
+.counting {
+    margin-top: 10px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
